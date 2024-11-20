@@ -1,10 +1,12 @@
-package pl.javastart.context;
+package pl.javastart.context.producer;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Scanner;
 
 @Service
+@Profile("console")
 public class ConsoleMessageProducer implements MessageProducer{
 
     public String getMessage() {

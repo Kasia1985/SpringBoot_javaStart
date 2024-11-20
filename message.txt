@@ -1,0 +1,4 @@
+to jest
+komunikat
+z pliku
+message.txt
